@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders person 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#ddd",
+        "borderRadius": 8,
+        "borderWidth": 1,
+        "height": 300,
+        "width": 280,
+      },
+    ]
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "#f9f9f9",
+          "borderBottomWidth": 1,
+          "borderColor": "#ddd",
+          "borderTopLeftRadius": 7,
+          "borderTopRightRadius": 7,
+          "height": 105,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flexBasis": 0,
+          "flexGrow": 1,
+          "flexShrink": 1,
+          "height": 400,
+          "width": 280,
+        },
+      ]
+    }
+  >
+    Test card
+  </View>
+</View>
+`;
