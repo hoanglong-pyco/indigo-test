@@ -100,6 +100,7 @@ export default class Favorite extends React.Component {
   componentWillMount() {
     const { navigation } = this.props;
     navigation.addListener("willFocus", this.willFocus);
+    Alert.alert('Notie', 'Please long press item for switch to edit mode');
   }
   componentWillUnmount() {
     this.props.navigation.removeEventListener("willFocus", this.willFocus);
